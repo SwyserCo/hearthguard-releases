@@ -3,6 +3,12 @@
 All notable firmware changes are documented here.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [0.16.5] - 2026-03-16
+
+### Changed
+- WiFi disconnect plays one chime immediately, one reminder after 30 seconds, then silent
+- LED indication remains for ongoing connection status
+
 ## [0.16.4] - 2026-03-16
 
 ### Fixed
