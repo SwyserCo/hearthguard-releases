@@ -3,6 +3,13 @@
 All notable firmware changes are documented here.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [0.16.4] - 2026-03-16
+
+### Fixed
+- Suppressed repeated failure chimes on WiFi disconnect (5-minute cooldown)
+- Removed audible alerts from WiFi retry exhaustion and error state (LED-only)
+- Reconnection chime only plays after a disconnect event (not on initial boot)
+
 ---
 
 ## Scout
