@@ -3,6 +3,12 @@
 All notable firmware changes are documented here.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [0.17.0] - 2026-06-11
+
+### Changed
+- Presence detection is now radar-only. PIR, noise, and BLE proximity no longer drive the presence signal, which fixes cases where presence stayed ON long after radar cleared.
+- Noise and glass-break detection remain active on their own MQTT topics and are unaffected.
+
 ## [0.16.5] - 2026-03-16
 
 ### Changed
