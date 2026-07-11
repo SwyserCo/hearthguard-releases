@@ -3,6 +3,19 @@
 All notable firmware changes are documented here.
 Format based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## Ember
+
+### [Unreleased]
+
+#### Added
+- Ember OTA release channel reserved in the public firmware repository.
+
+#### Changed
+- Ember release artifacts use `ember-vX.Y.Z` tags and `ember_firmware.bin` assets.
+
+#### Fixed
+- Public release documentation now includes Ember alongside Scout and Keep.
+
 ## [0.17.0] - 2026-06-11
 
 ### Changed
